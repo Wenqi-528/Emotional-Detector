@@ -155,43 +155,43 @@ Coding center code - comment out the following 4 lines of code when ready for pr
 # setup the webserver
 # port may need to be changed if there are multiple flask servers running on same server
 
-port = 12424
+#port = 12424
 
 
-base_url = get_base_url(port)
-app = Flask(__name__, static_url_path=base_url + 'static')
+#base_url = get_base_url(port)
+#app = Flask(__name__, static_url_path=base_url + 'static')
 '''
 Deployment code - uncomment the following line of code when ready for production
 '''
-#app = Flask(__name__)
+app = Flask(__name__)
 
 
-#@app.route('/')
-@app.route(base_url)
+@app.route('/')
+#@app.route(base_url)
 def home():
     return render_template('writer_home.html', generated=None)
 
-#@app.route('/questions')
-@app.route(base_url+'/questions')
+@app.route('/questions')
+#@app.route(base_url+'/questions')
 def questions():
     return render_template('questions.html', generated=None)
 
 
 
-#@app.route('/', methods=['POST'])
-@app.route(base_url, methods=['POST'])
+@app.route('/', methods=['POST'])
+#@app.route(base_url, methods=['POST'])
 def home_post():
     return redirect(url_for('results'))
 
 
-#@app.route('/results')
-@app.route(base_url + '/results')
+@app.route('/results')
+#@app.route(base_url + '/results')
 def results():
     return render_template('Write-your-story-with-AI.html', generated=None)
 
 new_uuid=None
-#@app.route('/generate_text', methods=["POST"])
-@app.route(base_url + '/generate_text', methods=["POST"])
+@app.route('/generate_text', methods=["POST"])
+#@app.route(base_url + '/generate_text', methods=["POST"])
 def generate_text():
     """
     view function that will return json response for generated text. 
@@ -217,18 +217,18 @@ def generate_text():
 
 
 
-if __name__ == "__main__":
+#if __name__ == "__main__":
     '''
     coding center code
     '''
     # IMPORTANT: change the cocalcx.ai-camp.org to the site where you are editing this file.
     #new_uuids = []
-    website_url = 'cocalc1.ai-camp.org'
-    print(f"Try to open\n\n    https://{website_url}" + base_url + '\n\n')
+#    website_url = 'cocalc1.ai-camp.org'
+#    print(f"Try to open\n\n    https://{website_url}" + base_url + '\n\n')
 
-    app.run(host='0.0.0.0', port=port, debug=True)
-    import sys
-    sys.exit(0)
+#    app.run(host='0.0.0.0', port=port, debug=True)
+#    import sys
+#    sys.exit(0)
     '''
     scaffold code
     '''
