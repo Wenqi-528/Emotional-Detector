@@ -1,0 +1,436 @@
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> python2[K3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> qPython 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> python3 main.py
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda activate nlp
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> help
+Type help() for interactive help, or help(object) for help about object.
+>>> help()
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> stop
+No Python documentation found for 'stop'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> quit()
+No Python documentation found for 'quit()'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> help()
+No Python documentation found for 'help()'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> help
+
+Welcome to Python 3.8's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the Internet at https://docs.python.org/3.8/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+help> qPython 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> [K>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> qPython 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda activate nlp
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:26:06.547664: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:26:06.552717: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:26:06.553231: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55e483cfd6c0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:26:06.553275: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12394/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 220, in <module>
+    app.run(host='0.0.0.0', port=port, debug=True)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> python3 main.[[Kpy
+  File "<stdin>", line 1
+    python3 main.py
+            ^
+SyntaxError: invalid syntax
+>>> (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda activate mai[K[K[Knlp
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:27:41.895765: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:27:41.900749: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:27:41.901262: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564aae5f0fb0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:27:41.901305: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12396/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-07-01 14:27:49.480230: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:27:49.484973: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:27:49.485526: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56434d83f520 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:27:49.485569: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+127.0.0.1 - - [01/Jul/2021 14:27:54] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:54] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/logo.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/acc.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/lotr.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/elves.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/4.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/3.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/5.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/6.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:55] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/images/IMG_91832.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:57] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/results HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:57] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/Write-your-story-with-AI.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:57] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/duck2.gif HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:57] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/text_gen.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:27:57] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/static/tryout.png HTTP/1.1[0m" 200 -
+ * Detected change in '/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/nlp_model/app/main.py', reloading
+ * Restarting with stat
+2021-07-01 14:28:07.253880: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:28:07.258529: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:28:07.258999: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55ae3c99f520 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:28:07.259041: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12397/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+127.0.0.1 - - [01/Jul/2021 14:28:08] "[33mPOST /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/generate_text HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2021 14:28:17] "[33mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/results HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2021 14:28:21] "[33mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/results HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2021 14:28:23] "[33mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/results HTTP/1.1[0m" 404 -
+127.0.0.1 - - [01/Jul/2021 14:28:26] "[33mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12396/ HTTP/1.1[0m" 404 -
+(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda actiavate[K[K[K[K[Kvate nlp
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:30:39.285169: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:30:39.290167: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:30:39.290753: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5616b348afb0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:30:39.290798: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12398/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-07-01 14:30:46.792325: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:30:46.797095: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:30:46.797590: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5561ac5c0520 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:30:46.797633: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/logo.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/acc.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/lotr.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/elves.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/3.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/4.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/5.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/6.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:50] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/IMG_91832.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:52] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/results HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:52] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/Write-your-story-with-AI.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:52] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/text_gen.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:52] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/tryout.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:30:52] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/duck2.gif HTTP/1.1[0m" 200 -
+[[0.03319757 0.12963392 0.00651152 0.09019734 0.7228412  0.01761852]]
+[0.03319757 0.12963392 0.00651152 0.09019734 0.7228412  0.01761852]
+127.0.0.1 - - [01/Jul/2021 14:31:08] "[37mPOST /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/generate_text HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/logo.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:22] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/acc.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/3.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/elves.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/lotr.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/4.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/5.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/6.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:23] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/images/IMG_91832.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:34] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/results HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/Write-your-story-with-AI.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/tryout.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/text_gen.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:31:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/static/duck2.gif HTTP/1.1[0m" 200 -
+(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ reset
+c[?1000l[?25h(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda activate
+(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ conda activa[Kate nlp
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:50:20.262905: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:50:20.267526: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:50:20.267988: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x564f5a3a6500 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:50:20.268026: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 221, in <module>
+    app.run(host='0.0.0.0', port=port, debug=True)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:50:47.581996: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:50:47.586637: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:50:47.587116: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x55d09edb6500 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:50:47.587159: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12398/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+Traceback (most recent call last):
+  File "main.py", line 221, in <module>
+    app.run(host='0.0.0.0', port=port, debug=True)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/flask/app.py", line 990, in run
+    run_simple(host, port, self, **options)
+  File "/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/miniconda3/envs/nlp/lib/python3.8/site-packages/werkzeug/serving.py", line 1030, in run_simple
+    s.bind(server_address)
+OSError: [Errno 98] Address already in use
+(nlp) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ python3 main.py
+2021-07-01 14:52:05.348392: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:52:05.353090: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:52:05.353583: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x556e9c590500 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:52:05.353624: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12400/ (Press CTRL+C to quit)
+ * Restarting with stat
+2021-07-01 14:52:12.799968: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:52:12.804647: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:52:12.805126: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x56364ed14520 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:52:12.805172: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/Home.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/logo.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/acc.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/nicepage.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:16] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/nicepage.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/elves.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/2.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/lotr.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/1.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/3.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/4.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/6.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/5.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:17] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/IMG_91832.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:19] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/results HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:19] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/Write-your-story-with-AI.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:19] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/duck2.gif HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:19] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/text_gen.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:19] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/tryout.png HTTP/1.1[0m" 200 -
+[[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]]
+[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]
+127.0.0.1 - - [01/Jul/2021 14:52:24] "[37mPOST /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/generate_text HTTP/1.1[0m" 200 -
+[[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]]
+[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]
+127.0.0.1 - - [01/Jul/2021 14:52:29] "[37mPOST /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/generate_text HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/results HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[36mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/jquery.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[36mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/duck2.gif HTTP/1.1[0m" 304 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[36mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/nicepage.js HTTP/1.1[0m" 304 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[37mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/tryout.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[36mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/images/logo.png HTTP/1.1[0m" 304 -
+127.0.0.1 - - [01/Jul/2021 14:52:35] "[36mGET /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/static/text_gen.js HTTP/1.1[0m" 304 -
+[[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]]
+[0.1324595  0.5916814  0.01731835 0.10942492 0.13704798 0.01206787]
+127.0.0.1 - - [01/Jul/2021 14:53:11] "[37mPOST /42a0b784-c781-4a15-8706-3a970b6ddea1/port/12400/generate_text HTTP/1.1[0m" 200 -
+ * Detected change in '/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/nlp_model/app/main.py', reloading
+ * Restarting with stat
+2021-07-01 14:54:09.247914: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:54:09.252647: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:54:09.253164: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x561b85f64520 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:54:09.253207: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12401/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+ * Detected change in '/projects/42a0b784-c781-4a15-8706-3a970b6ddea1/nlp_model/app/main.py', reloading
+ * Restarting with stat
+2021-07-01 14:55:39.894075: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN)to use the following CPU instructions in performance-critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-07-01 14:55:39.898809: I tensorflow/core/platform/profile_utils/cpu_utils.cc:104] CPU Frequency: 2400040000 Hz
+2021-07-01 14:55:39.899334: I tensorflow/compiler/xla/service/service.cc:168] XLA service 0x5598f1a01b10 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+2021-07-01 14:55:39.899374: I tensorflow/compiler/xla/service/service.cc:176]   StreamExecutor device (0): Host, Default Version
+Try to open
+
+    https://cocalc1.ai-camp.org/42a0b784-c781-4a15-8706-3a970b6ddea1/port/12401/
+
+
+ * Debugger is active!
+ * Debugger PIN: 107-586-433
+Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> [K>>> (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>>  (base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ [K(base) ]0;~/nlp_model/app[01;34m~/nlp_model/app[00m$ Python 3.8.5 (default, Jul 28 2020, 12:59:40) 
+[GCC 9.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> [K>>> 
